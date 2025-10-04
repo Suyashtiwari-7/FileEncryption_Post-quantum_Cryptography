@@ -2,5 +2,9 @@
   "suyash": {
     "salt": "9630834edc7118b9736a4f524c5146c3",
     "verifier": "f9191bed9646ae768c2dddb7168abe8b9c9a08f2d689c397c3f43a3ddb451a74"
+  },
+  "demo": {
+    "salt": "0e08badef86872f1db9b2c98f5f43b51",
+    "verifier": "426422858a81a50b8b10be192ef2f5dbad2267276b9e32799a36f12d4c8469dd"
   }
 }
