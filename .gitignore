@@ -6,6 +6,18 @@ __pycache__/
 # C extensions
 *.so
 
+# Temporary and test files
+*_decrypted.*
+secretdecry
+secretencry
+demo_*.py
+test_*.py
+temp_*
+*.tmp
+
+# Duplicate CSV files
+*_results.csv
+
 # Distribution / packaging
 .Python
 build/

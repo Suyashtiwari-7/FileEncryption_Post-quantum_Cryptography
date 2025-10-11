@@ -311,11 +311,23 @@ def pq_decrypt_with_privkey(privfile, infile, outfile, alg="Kyber512"):
         print(f"❌ Error during PQ decryption: {e}")
 
 def show_users():
+    print("\n👥 REGISTERED USERS DATABASE")
+    print("=" * 40)
     db = load_db()
     if not db:
-        print("No users registered.")
+        print("❌ No users registered.")
+        print("💡 Use option 1 to register a new user.")
     else:
+        print(f"✅ Found {len(db)} registered user(s):")
+        print()
+        for username, data in db.items():
+            print(f"👤 User: {username}")
+            print(f"   🔑 Salt: {data['salt'][:16]}...")
+            print(f"   🔐 Verifier: {data['verifier'][:16]}...")
+            print()
+        print("📋 Full database (JSON format):")
         print(json.dumps(db, indent=2))
+    print("=" * 40)
 
 def menu():
     print("\n" + "="*50)

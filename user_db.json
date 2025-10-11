@@ -6,5 +6,9 @@
   "demo": {
     "salt": "0e08badef86872f1db9b2c98f5f43b51",
     "verifier": "426422858a81a50b8b10be192ef2f5dbad2267276b9e32799a36f12d4c8469dd"
+  },
+  "SUYASH": {
+    "salt": "04f425d3d653706d56e052ed555eb78a",
+    "verifier": "82d9923f2a9a70bbf82f9395ccc9b2d6dd7a8b2af78eec409cdcbf1cc125757c"
   }
 }
